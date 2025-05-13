@@ -30,7 +30,7 @@ Faça login no GitHub, se necessário/As alterações devem aparecer no seu repositó
 
 Aqui está uma tabela de comandos passo a passo para criar uma branch e, em seguida, subir o código para essa branch em um repositório no GitHub:
 
-git checkout -b nome_da_branch/Cria e muda para uma nova branch
+git checkout -b nome_da_branch "dev"/Cria e muda para uma nova branch
 
 git add . ou git add nome_do_arquivo/Adiciona as alterações ao índice
 
