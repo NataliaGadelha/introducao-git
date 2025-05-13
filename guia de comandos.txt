@@ -9,3 +9,35 @@ git commit -m "mensagem de commit"
 git push -u origin main
 
 git status
+
+Aqui está uma tabela de comandos passo a passo para subir (push) um código para um repositório no GitHub:
+
+git init/ Inicializa um repositório Git local
+
+git add . ou git add nome_do_arquivo/ Adiciona as alterações ao índice
+
+git commit -m "Sua mensagem de commit"/Cria um commit com uma mensagem descritiva
+
+git branch -M main /Renomeia a branch principal (opcional)
+
+git remote add origin URL_DO_REPOSITORIO/Adiciona o repositório remoto como origem
+
+git push -u origin main ou git push -u origin nome_da_sua_branch/Envia o código para o GitHub
+
+Digite seu nome de usuário e senha do GitHub, se solicitado/Faça login no GitHub, se necessário
+
+Faça login no GitHub, se necessário/As alterações devem aparecer no seu repositório no GitHub
+
+Aqui está uma tabela de comandos passo a passo para criar uma branch e, em seguida, subir o código para essa branch em um repositório no GitHub:
+
+git checkout -b nome_da_branch/Cria e muda para uma nova branch
+
+git add . ou git add nome_do_arquivo/Adiciona as alterações ao índice
+
+git commit -m "Sua mensagem de commit"/Cria um commit com uma mensagem descritiva
+
+git push origin nome_da_branch/Envia o código para o GitHub na nova branch
+
+Digite seu nome de usuário e senha do GitHub, se solicitado/Faça login no GitHub, se necessário
+
+Verifique o GitHub/As alterações devem aparecer na nova branch no GitHub
